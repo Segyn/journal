@@ -4,20 +4,54 @@ body {
     background: #7eb1da;
 }
 
-.обложка{
+.обложка {
     text-align: center;
 }
-
-/* .перваяСтраница {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-} */
 
 .перваяСтраница {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.формы {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    width: 330px;
+}
+
+.формы a {
+    text-decoration: none;
+    transition: .4s;
+    color: #298cad;
+}
+
+.формы a:hover {
+    color: #36d2ff;
+}
+
+.формы input {
+    display: block;
+    width: 100%;
+}
+
+.форма {
+    background: #fff;
+}
+
+label.вкладки {
+    outline: 1px solid red;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+label.вкладки.вкл {
+    background: #fff;
+    color: #1b5f75;
 }

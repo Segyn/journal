@@ -13,29 +13,30 @@
         <h1>Школьный Дневник</h1>
     </header>
     <div class="перваяСтраница">
-        <label title="авторизация">Авторизация</label>
-        <label title="регистрация">Регистрация</label>
-        <form class="авторизация">
-            <input type="email" placeholder="Введите E-mail">
-            <input type="password" placeholder="Введите пароль">
-            <a href="#" class="кнопка">Войти</a>
-            <a href="#">Я забыл(-а) свой E-mail или пароль</a>
-        </form>
-        <form class="регистрация">
-            <input type="text" value="Фамилия">
-            <input type="text" value="Имя">
-            <input type="text" value="Отчество">
-            <input type="text" value="наименование школы">
-            <input type="text" value="адрес школы">
-            <input type="text" size="2" value="класс">
-            <a href="#" class="кнопка"></a>
+        <div class="формы">
+            <label class="вкладки вкл" title="авторизация">Авторизация</label>
+            <label class="вкладки" title="регистрация">Регистрация</label>
+            <form class="форма авторизации">
+                <input type="email" placeholder="Введите E-mail">
+                <input type="password" placeholder="Введите пароль">
+                <a href="#" class="кнопка">Войти</a>
+                <a href="#">Я забыл(-а) свой E-mail или пароль</a>
+            </form>
+            <form class="форма регистрации">
+                <input type="text" value="Фамилия">
+                <input type="text" value="Имя">
+                <input type="text" value="Отчество">
+                <input type="text" value="наименование школы">
+                <input type="text" value="адрес школы">
+                <input type="text" size="2" value="класс">
+                <a href="#" class="кнопка"></a>
 
-            <div class="соглашение">
-                <input type="checkbox">
-                <label> Ознакомлен(-а) и принимаю <a href="#">условие регистрации</a></label>
-            </div>
-        </form>
-
+                <div class="соглашение">
+                    <input type="checkbox">
+                    <label> Ознакомлен(-а) и принимаю <a href="#">условие регистрации</a></label>
+                </div>
+            </form>
+        </div>
     </div>
 
     <script src="script.js"></script>
